@@ -1,5 +1,9 @@
 <div class="row list-wrapper">
     <ul class="list-group">
+        <div class="list-group-item">
+          {{input type="text" class="new-band" placeholder="New band" value=name}}
+            <button class="btn btn-primary btn-sm new-band-button" {{action "createBand"}}>Add</button>
+        </div>
       {{#each model as |band|}}
           <li class="list-group-item"><em>{{band.name}}</em></li>
       {{/each}}

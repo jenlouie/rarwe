@@ -1,6 +1,7 @@
-import Ember from 'ember';
+//import Ember from 'ember';
+//import Band from '../models/band';
+//import Song from '../models/song';
 
-// app/routes/songs.js
 var Song = Ember.Object.extend({
   title: '',
   rating: 0,
